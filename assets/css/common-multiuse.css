@@ -1,0 +1,650 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-ExtraLightItalic.eot");
+  src: local("Poppins ExtraLight Italic"), local("Poppins-ExtraLightItalic"), url("../fonts/Poppins-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ExtraLightItalic.woff") format("woff"), url("../fonts/Poppins-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-ExtraBoldItalic.eot");
+  src: local("Poppins ExtraBold Italic"), local("Poppins-ExtraBoldItalic"), url("../fonts/Poppins-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ExtraBoldItalic.woff") format("woff"), url("../fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-ExtraBold.eot");
+  src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"), url("../fonts/Poppins-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ExtraBold.woff") format("woff"), url("../fonts/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Thin.eot");
+  src: local("Poppins Thin"), local("Poppins-Thin"), url("../fonts/Poppins-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Thin.woff") format("woff"), url("../fonts/Poppins-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-BoldItalic.eot");
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url("../fonts/Poppins-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-BoldItalic.woff") format("woff"), url("../fonts/Poppins-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBoldItalic.eot");
+  src: local("Poppins SemiBold Italic"), local("Poppins-SemiBoldItalic"), url("../fonts/Poppins-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBoldItalic.woff") format("woff"), url("../fonts/Poppins-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Black.eot");
+  src: local("Poppins Black"), local("Poppins-Black"), url("../fonts/Poppins-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Black.woff") format("woff"), url("../fonts/Poppins-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-ThinItalic.eot");
+  src: local("Poppins Thin Italic"), local("Poppins-ThinItalic"), url("../fonts/Poppins-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ThinItalic.woff") format("woff"), url("../fonts/Poppins-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.eot");
+  src: local("Poppins Medium"), local("Poppins-Medium"), url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-ExtraLight.eot");
+  src: local("Poppins ExtraLight"), local("Poppins-ExtraLight"), url("../fonts/Poppins-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ExtraLight.woff") format("woff"), url("../fonts/Poppins-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-LightItalic.eot");
+  src: local("Poppins Light Italic"), local("Poppins-LightItalic"), url("../fonts/Poppins-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-LightItalic.woff") format("woff"), url("../fonts/Poppins-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.eot");
+  src: local("Poppins Regular"), local("Poppins-Regular"), url("../fonts/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-MediumItalic.eot");
+  src: local("Poppins Medium Italic"), local("Poppins-MediumItalic"), url("../fonts/Poppins-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-MediumItalic.woff") format("woff"), url("../fonts/Poppins-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.eot");
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Light.eot");
+  src: local("Poppins Light"), local("Poppins-Light"), url("../fonts/Poppins-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Light.woff") format("woff"), url("../fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-BlackItalic.eot");
+  src: local("Poppins Black Italic"), local("Poppins-BlackItalic"), url("../fonts/Poppins-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-BlackItalic.woff") format("woff"), url("../fonts/Poppins-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Italic.eot");
+  src: local("Poppins Italic"), local("Poppins-Italic"), url("../fonts/Poppins-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Italic.woff") format("woff"), url("../fonts/Poppins-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.eot");
+  src: local("Poppins Bold"), local("Poppins-Bold"), url("../fonts/Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.h1 {
+  font-size: 4.5rem;
+  line-height: 1.113;
+  margin: 0;
+  font-weight: 500;
+}
+
+.h2 {
+  font-size: 3rem;
+  line-height: 1.4;
+  margin: 0;
+  font-weight: 500;
+}
+
+.h4 {
+  font-size: 1.375rem;
+  line-height: 1.2;
+  margin: 0;
+  font-weight: 600;
+}
+
+.h5 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  margin: 0;
+  font-weight: 600;
+}
+
+.fz-lg {
+  font-size: 2rem;
+}
+
+.fz-md {
+  font-size: 1.25rem;
+}
+
+.fz-sm {
+  font-size: 0.938rem;
+}
+
+.fz-xs {
+  font-size: 0.875rem;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-contain {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.btn {
+  text-decoration: none;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  background: none !important;
+  border: solid 1px #FFFFFF !important;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  color: #ffffff !important;
+  border-radius: 50px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  position: relative;
+  min-height: 56px;
+  padding: 17px 43px;
+}
+.btn span {
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  color: inherit;
+  position: relative;
+  z-index: 1;
+}
+.btn svg {
+  margin-left: 8px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.btn svg path {
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.btn:hover {
+  border-color: #DABA68 !important;
+}
+.btn:hover span {
+  color: #DABA68 !important;
+}
+.btn:hover svg {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.btn:hover svg path {
+  fill: #DABA68;
+}
+.btn_hasbackground {
+  background: #DABA68 !important;
+  color: #001F15 !important;
+  border-color: #DABA68 !important;
+}
+.btn_hasbackground svg path {
+  fill: #001F15;
+}
+.btn_hasbackground:before {
+  content: "";
+  position: absolute;
+  border-radius: 50px;
+  top: -1px;
+  left: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  display: block;
+  background: linear-gradient(250.87deg, #CEAC56 30.95%, #7C471E 99.76%);
+  opacity: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.btn_hasbackground:hover {
+  border-color: transparent !important;
+  background: transparent !important;
+}
+.btn_hasbackground:hover span {
+  color: #001F15 !important;
+}
+.btn_hasbackground:hover svg path {
+  fill: #001F15;
+}
+.btn_hasbackground:hover:before {
+  opacity: 1;
+}
+.btn_sm {
+  padding: 14px 26px;
+  min-height: 50px;
+}
+.btn_lg {
+  padding: 20px 51px;
+  min-height: 62px;
+}
+.btn_simple {
+  padding: 0;
+  min-height: unset;
+  border: none !important;
+}
+
+.container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1250px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  width: 100%;
+  font-size: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+*:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.background-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#blob {
+  background-color: white;
+  height: 34vmax;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left top, right top, from(#514E40), to(#455140));
+  background: linear-gradient(to right, #514E40, #455140);
+  -webkit-animation: rotate 20s infinite;
+          animation: rotate 20s infinite;
+  opacity: 0.8;
+  will-change: rotate;
+}
+
+#blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  -webkit-backdrop-filter: blur(12vmax);
+          backdrop-filter: blur(12vmax);
+  top: 0;
+  left: 0;
+}
+
+section {
+  position: relative;
+}
+section .container {
+  position: relative;
+  z-index: 1;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  50% {
+    scale: 1 1.5;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  50% {
+    scale: 1 1.5;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+.custom-main {
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.custom-body {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #ffffff;
+  background: #00170F;
+  margin: 0 auto;
+  overflow-x: hidden;
+  position: relative;
+}
+.custom-body_noscroll {
+  overflow: hidden;
+}
+
+button, input, textarea, select {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  background: none;
+  text-decoration: none;
+  border-radius: 0px;
+}
+button:active, button:focus, button:hover, input:active, input:focus, input:hover, textarea:active, textarea:focus, textarea:hover, select:active, select:focus, select:hover {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  background: none;
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+}
+
+label {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  background: none;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.lazyload, .lazyloading {
+  opacity: 0;
+}
+
+.lazyloaded {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+}
+
+.input {
+  position: relative;
+}
+.input label {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
+  background: none !important;
+  text-decoration: none !important;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 0.875rem;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.input label.error {
+  position: absolute;
+  pointer-events: none;
+  color: #F24C4C;
+  right: 12px;
+  top: 37px;
+  font-size: 0.625rem;
+}
+.input label:has(~ input.error) {
+  color: #FF7D7D;
+}
+.input input {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: solid 1px #48635A !important;
+  border-radius: 8px;
+  background: none !important;
+  text-decoration: none !important;
+  font-size: 0.875rem;
+  padding: 11px 14px;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  color: #ffffff !important;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.input input:hover {
+  border-color: #68837A !important;
+}
+
+.textarea {
+  position: relative;
+}
+.textarea label {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
+  background: none !important;
+  text-decoration: none !important;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 0.875rem;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.textarea label.error {
+  position: absolute;
+  pointer-events: none;
+  color: #F24C4C;
+  right: 12px;
+  top: 37px;
+  font-size: 0.625rem;
+}
+.textarea textarea {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: solid 1px #48635A !important;
+  border-radius: 8px;
+  background: none !important;
+  text-decoration: none !important;
+  font-size: 0.875rem;
+  padding: 11px 14px;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  color: #ffffff !important;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  resize: none;
+  min-height: 91px;
+}
+.textarea textarea:hover {
+  border-color: #68837A !important;
+}
+
+.input-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.input-row .input {
+  width: calc(50% - 5px);
+}
+
+@media only screen and (max-width: 1200px) {
+  .background-animation {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .h1 {
+    font-size: 2.938rem;
+  }
+  .h2 {
+    font-size: 2.125rem;
+  }
+  .h4 {
+    font-size: 1.25rem;
+  }
+  .h5 {
+    font-size: 1.125rem;
+  }
+  .fz-lg {
+    font-size: 1.375rem;
+  }
+  .fz-md {
+    font-size: 1.125rem;
+  }
+  .fz-xs {
+    font-size: 0.75rem;
+  }
+  .input-row {
+    display: block;
+  }
+  .input-row .input {
+    width: 100%;
+  }
+}

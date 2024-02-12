@@ -1,0 +1,128 @@
+.header-holder{
+   min-height: 100px;
+   position: relative;
+   z-index: 10;
+}
+
+.header{
+   position: relative;
+   z-index: 10;
+   transition: $transition;
+   top: 0;
+   left: 0;
+   width: 100%;
+   &__row{
+      min-height: 100px;
+      display: flex;
+      align-items: center;
+   }
+   &__logo{
+      display: block;
+      text-decoration: none;
+      height: 39px;
+      margin-right: auto;
+      img{
+         height: 100%;
+         width: auto;
+         display: block;
+      }
+      &_mobile{
+         display: none;
+      }
+   }
+   &__menu{
+      ul{
+         list-style: none;
+         display: flex;
+         gap: 35px;
+      }
+      li{
+         font-size: 1rem;
+         a{
+            text-decoration: none;
+            color: inherit;
+            transition: $transition;
+            &:hover{
+               color: $bodyColorNeutral;
+            }
+         }
+      }
+   }
+   &__btn{
+      margin-left: 60px;
+   }
+   &__toggler{
+      display: none;
+      margin-left: 17px;
+   }
+   &_invisible{
+      transform: translateY(-100%);
+   }
+   &_fixed{
+      position: fixed;
+      background: $bodyBackgroundPrimary;
+      transform: translateY(0%);
+   }
+}
+
+@media only screen and (max-width: 1200px){
+   .header-holder{
+      min-height: 90px;
+   }
+   .header{
+      &__row{
+         min-height: 90px;
+      }
+      &__logo{
+         height: 28px;
+         &_mobile{
+            display: block;
+         }
+         &_desktop{
+            display: none;
+         }
+      }
+      &__menu{
+         position: fixed;
+         top: 90px;
+         background: $bodyBackgroundPrimary;
+         left: 0;
+         width: 100vw;
+         height: calc(100vh - 90px);
+         -ms-overflow-style: none;
+         scrollbar-width: none;
+         padding: 40px 25px 100px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         transition: $transition;
+         opacity: 0;
+         pointer-events: none;
+         &::-webkit-scrollbar {
+            display: none;
+         }
+         ul{
+            display: block;
+         }
+         li{
+            text-align: center;
+            &:not(:last-of-type){
+               margin-bottom: 20px;
+            }
+         }
+      }
+      &__toggler{
+         display: block;
+      }
+      &_active{
+         position: fixed;
+         background: $bodyBackgroundPrimary;
+         .header{
+            &__menu{
+               opacity: 1;
+               pointer-events: auto;
+            }
+         }
+      }
+   }
+}
