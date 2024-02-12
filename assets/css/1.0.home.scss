@@ -807,6 +807,13 @@
       }
       &__form{
          padding: 0;
+         .input-row{
+            .input{
+               &:first-of-type{
+                  margin-bottom: 15px;
+               }
+            }
+         }
       }
       &__contacts{
          padding: 0;
