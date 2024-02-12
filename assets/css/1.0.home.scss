@@ -61,6 +61,7 @@
 
 .clients{
    &__slider{
+      overflow: visible;
       .swiper-slide{
          outline: none !important;
          box-shadow: none !important;
@@ -84,17 +85,66 @@
       img{
          display: block;
          width: auto;
+         height: auto;
          max-width: 100%;
-         max-height: 100%;
          max-height: 55px;
       }
+   }
+   &__point{
+      &_1{
+         animation: pulse1 1.5s infinite ease-in-out;
+      }
+      &_2{
+         animation: pulse2 1.5s infinite ease-in-out;
+      }
+      &_3{
+         animation: pulse3 1.5s infinite ease-in-out;
+      }
+   }
+}
+
+@keyframes pulse1{
+   0%{
+      opacity: 0.3;
+   }
+   50%{
+      opacity: 0;
+   }
+   100%{
+      opacity: 0.3;
+   }
+}
+
+@keyframes pulse2{
+   0%{
+      opacity: 0.5;
+   }
+   50%{
+      opacity: 0;
+   }
+   100%{
+      opacity: 0.5;
+   }
+}
+
+@keyframes pulse3{
+   0%{
+      opacity: 1;
+   }
+   50%{
+      opacity: 0;
+   }
+   100%{
+      opacity: 1;
    }
 }
 
 @media only screen and (max-width: 576px){
    .clients{
       &__item{
-         max-height: 35px;
+         img{
+            max-height: 35px;
+         }
       }
    }
 }
