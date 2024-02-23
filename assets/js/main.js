@@ -191,4 +191,19 @@ $("#requestForm").validate({
       }
     });
 
+// Scroll to
+$('a[href^="#"]').click(function() {
+      var href = $.attr(this, 'href');
+
+      $('html, body').animate({
+            scrollTop: $(href).offset().top
+            
+      }, 500, function () {
+            $(".header").removeClass("header_active");
+            $(".custom-body").removeClass("custom-body_noscroll");
+      });
+
+      return false;
+});
+
 })(jQuery);

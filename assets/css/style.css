@@ -209,6 +209,11 @@
     padding-bottom: 120px;
   }
 }
+#solutions {
+  position: relative;
+  top: -150px;
+}
+
 .solutions__title {
   margin-bottom: 20px;
 }
